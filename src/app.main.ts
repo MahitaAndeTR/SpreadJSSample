@@ -17,7 +17,8 @@ import { WorldComponent } from './appModule/components/world.component';
 @NgModule({
     imports: [
         BrowserModule,
-        SpreadSheetsModule
+        SpreadSheetsModule,
+        DesignerModule
     ],
     providers:[
         CompositeInjector,
