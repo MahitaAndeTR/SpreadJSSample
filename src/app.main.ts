@@ -13,6 +13,7 @@ import { WindowRef } from './appModule/services/window-ref.service';
 import { NotificationEmitter } from './appModule/services/notification-emitter.service';
 import { HelloComponent } from './appModule/components/hello.component';
 import { WorldComponent } from './appModule/components/world.component';
+import '@grapecity/spread-sheets-designer-resources-en';
 
 @NgModule({
     imports: [
