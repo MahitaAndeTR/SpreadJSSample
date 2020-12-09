@@ -9,7 +9,8 @@ import { Greeting } from '../objects/greeting.object';
     selector: 'hello',
     template: [
         '<button type="button" (click)="greet()">Say Hello</button>'
-    ].join('\n')
+    ].join('\n'),
+    encapsulation: ViewEncapsulation.None
 })
 export class HelloComponent {
     private greeter: any;
