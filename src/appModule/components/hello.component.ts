@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 import { CompositeInjector } from '../services/composite-injector.service';
 import { NotificationEmitter } from '../services/notification-emitter.service';
